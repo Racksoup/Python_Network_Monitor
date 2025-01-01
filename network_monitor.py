@@ -66,3 +66,9 @@ if "cmd" in sys.argv[0].lower():  # Check if it's being run from a CMD window
 # Start the Tkinter event loop
 root.mainloop()
 
+# count time from last disconnect
+# show how long a disconnect lasts for
+# #of disconnects & total time disconnected in last 5 min, 1h, 6h, 24h
+# tabs for 5min, 1h, 6h, 24h. each tab contains a list of disconnects
+# show time-ordered list of individual disconnects and how long they lasted for each tab
+#   if the disconnect are longer than .2 seconds, show them in different color
